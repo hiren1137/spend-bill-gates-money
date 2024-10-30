@@ -584,17 +584,31 @@ export default function SpendBillGatesMoneyDeluxe() {
 
         {/* Footer */}
         <footer className="bg-gray-800 text-white py-6 mt-12 rounded-lg">
-          <div className="container mx-auto px-4 text-center">
-            <p className="mb-2 text-lg">Created with passion by H</p>
-            <nav className="space-x-4">
-              <Link href="/disclaimer" className="text-blue-300 hover:underline">Disclaimer</Link>
-            </nav>
-            <p className="mt-4 text-sm">
-              "Spend Bill Gates' Money" is a simulation game for entertainment and educational purposes only. 
-              It is not affiliated with Bill Gates or any of his enterprises.
-            </p>
-          </div>
-        </footer>
+  <div className="container mx-auto px-4 text-center">
+    <p className="mb-2 text-lg">Created with passion by H</p>
+    <nav className="flex justify-center items-center gap-4 mb-4">
+      <Link 
+        href="/disclaimer" 
+        className="text-blue-300 hover:underline"
+      >
+        Disclaimer
+      </Link>
+      <span className="text-gray-500">|</span>
+      <Link 
+        href="https://www.spendelonmuskmoney.org/" 
+        className="text-blue-300 hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Spend Elon Musk Money
+      </Link>
+    </nav>
+    <p className="mt-4 text-sm">
+      "Spend Bill Gates' Money" is a simulation game for entertainment and educational purposes only. 
+      It is not affiliated with Bill Gates or any of his enterprises.
+    </p>
+  </div>
+</footer>
       </div>
     </div>
   );
