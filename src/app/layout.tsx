@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   keywords: "spend bill gates money, bill gates spend money, billionaire simulator, spend billions, bill gates fortune",
   metadataBase: new URL('https://www.spendbillgatesmoney.xyz'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://www.spendbillgatesmoney.xyz',
   },
   openGraph: {
     title: 'Spend Bill Gates Money - Interactive Billions Spending Simulator',
@@ -114,6 +114,14 @@ export default function RootLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      
+      {/* Google AdSense */}
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3157767614642943"
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
       />
       
       {/* Google Analytics */}
