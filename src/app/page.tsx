@@ -430,157 +430,110 @@ export default function SpendBillGatesMoneyDeluxe() {
           </div>
         )}
 
-        {/* Information Section */}
-        <div className="bg-blue-50 text-gray-800 mt-12 rounded-lg shadow-lg">
-          <div className="container mx-auto px-4 py-8 max-w-4xl">
-            <h2 className="text-4xl font-extrabold mb-8 text-blue-800 text-center">
-              About "Spend Bill Gates' Money"
-            </h2>
-            
-            <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4 text-blue-700">
-                Embark on a Billionaire's Shopping Spree
-              </h3>
-              <p className="text-lg mb-4 leading-relaxed">
-                Welcome to <Link href="https://spendbillgatesmoney.xyz" className="text-blue-600 hover:underline font-semibold">
-                "Spend Bill Gates' Money"
-                </Link>, an exhilarating virtual experience that puts you in control of one of the world's largest fortunes. 
-                Have you ever wondered what it would be like to have billions at your fingertips? Now's your chance to find out!
-              </p>
-              <p className="text-lg mb-4 leading-relaxed">
-                Our innovative wealth simulator allows you to step into the shoes of tech mogul Bill Gates and unleash your 
-                wildest spending fantasies. With a fortune that would take lifetimes to exhaust in reality, you're challenged 
-                to spend every last dollar in our virtual marketplace. From everyday luxuries to world-changing investments, 
-                the possibilities are as vast as the fortune itself.
-              </p>
-            </section>
 
-            <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4 text-blue-700">
-                How to Spend Bill Gates' Money: Your Guide to Billions
-              </h3>
-              <ol className="list-decimal list-inside space-y-4">
-                <li className="text-lg">
-                  <span className="font-semibold">Enter the Billionaire's Bazaar:</span> As soon as you start, you'll find yourself 
-                  in a digital shopping paradise with Bill Gates' entire fortune at your disposal.
-                </li>
-                <li className="text-lg">
-                  <span className="font-semibold">Explore Extravagant Options:</span> Browse through an extensive catalog of items, 
-                  from cutting-edge tech to humanitarian projects, each with a detailed description and price tag.
-                </li>
-                <li className="text-lg">
-                  <span className="font-semibold">Make Impactful Decisions:</span> Will you invest in space exploration, fund global 
-                  healthcare initiatives, or indulge in a fleet of superyachts? The choice is yours!
-                </li>
-                <li className="text-lg">
-                  <span className="font-semibold">Watch Your Wealth:</span> Keep an eye on the real-time balance as you shop. Can you 
-                  strategize to spend every last dollar?
-                </li>
-                <li className="text-lg">
-                  <span className="font-semibold">Review Your Legacy:</span> Once you've exhausted the fortune (or whenever you choose), 
-                  hit "Print Receipt" to see a summary of your billionaire spending spree.
-                </li>
-              </ol>
-            </section>
+{/* Information Section */}
+<div className="bg-blue-50 text-gray-800 mt-12 rounded-lg shadow-lg">
+  <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <h2 className="text-4xl font-extrabold mb-8 text-blue-800 text-center">
+      About "Spend Bill Gates' Money"
+    </h2>
 
-            <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4 text-blue-700">
-                Why "Spend Bill Gates' Money" is More Than Just a Game
-              </h3>
-              <p className="text-lg mb-4 leading-relaxed">
-                While the premise might seem playful, "Spend Bill Gates' Money" offers a unique lens through which to view 
-                wealth, economy, and global issues. As you navigate through the spending options, you'll gain perspective on:
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-6">
-                <li className="text-lg">The true scale of billion-dollar fortunes</li>
-                <li className="text-lg">The potential impact of strategic philanthropy</li>
-                <li className="text-lg">The balance between personal luxury and global change</li>
-                <li className="text-lg">The complexities of managing and allocating vast resources</li>
-              </ul>
-            </section>
+    <section className="mb-12">
+      <h3 className="text-3xl font-bold mb-4 text-blue-700">
+        Embark on a Billionaire's Shopping Spree
+      </h3>
+      <p className="text-lg mb-4 leading-relaxed">
+        Welcome to <Link href="https://spendbillgatesmoney.xyz" className="text-blue-600 hover:underline font-semibold">
+        "Spend Bill Gates' Money"
+        </Link>, an exhilarating virtual experience inspired by creative games like <Link href="https://neal.fun/spend/" className="text-blue-600 hover:underline font-semibold">"Neal Fun Spend Bill Gates' Money"</Link>. 
+        Dive into the thrill of spending one of the world's largest fortunes. Unlike other games, our version allows deeper interaction and an expanded catalog to test your imagination!
+      </p>
+      <p className="text-lg mb-4 leading-relaxed">
+        Our innovative wealth simulator is designed to outshine alternatives like <span className="font-semibold">neal.fun</span> with unique features and a broader focus on impactful spending. Challenge yourself to exhaust every dollar and explore life-changing investments and luxury purchases like never before.
+      </p>
+    </section>
 
-            <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4 text-blue-700">
-                Features That Make "Spend Bill Gates' Money" Unique
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-semibold mb-2 text-blue-600">Diverse Spending Options</h4>
-                  <p>From $2 pizza slices to $1 billion skyscrapers, experience the full spectrum of spending possibilities.</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-semibold mb-2 text-blue-600">Real-time Balance Updates</h4>
-                  <p>Watch in awe as billions dwindle with each purchase, providing a tangible sense of wealth's scale.</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-semibold mb-2 text-blue-600">Educational Insights</h4>
-                  <p>Gain fascinating facts about wealth distribution, global economics, and the cost of world-changing projects.</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-semibold mb-2 text-blue-600">Strategic Challenges</h4>
-                  <p>Try to balance personal indulgences with philanthropic endeavors. Can you spend it all responsibly?</p>
-                </div>
-              </div>
-            </section>
+    <section className="mb-12">
+      <h3 className="text-3xl font-bold mb-4 text-blue-700">
+        How to Spend Bill Gates' Money: Your Guide to Billions
+      </h3>
+      <ol className="list-decimal list-inside space-y-4">
+        <li className="text-lg">
+          <span className="font-semibold">Enter the Billionaire's Bazaar:</span> Begin your journey into a marketplace that rivals games like <span className="font-semibold">neal .fun</span> and <span className="font-semibold">neal.fun games</span>. Here, Bill Gates' fortune is yours to manage.
+        </li>
+        <li className="text-lg">
+          <span className="font-semibold">Explore Extravagant Options:</span> From personal luxuries to global-scale projects, you'll find choices beyond what platforms like <span className="font-semibold">neal.fu</span> and <span className="font-semibold">neil fun</span> offer.
+        </li>
+        <li className="text-lg">
+          <span className="font-semibold">Make Impactful Decisions:</span> Use your fortune to fund groundbreaking projects. Unlike similar games, our simulator offers more variety, making it a perfect blend of fun and education.
+        </li>
+        <li className="text-lg">
+          <span className="font-semibold">Watch Your Wealth:</span> Our real-time balance updates are faster and more detailed than <span className="font-semibold">neal games</span>, ensuring a better experience.
+        </li>
+        <li className="text-lg">
+          <span className="font-semibold">Review Your Legacy:</span> Once you're done spending (or experimenting with strategies), review a detailed breakdown of your spending spree.
+        </li>
+      </ol>
+    </section>
 
-            <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4 text-blue-700">
-                Intriguing Facts: The Reality of Bill Gates' Wealth
-              </h3>
-              <ul className="list-disc list-inside space-y-3 ml-6">
-                <li className="text-lg">
-                  If Bill Gates spent $1 million daily, it would take over 290 years to deplete his fortune.
-                </li>
-                <li className="text-lg">
-                  Bill Gates' net worth surpasses the GDP of many countries, highlighting the immense scale of his wealth.
-                </li>
-                <li className="text-lg">
-                  The Bill & Melinda Gates Foundation, funded largely by Gates' wealth, has donated over $50 billion to global causes since its inception.
-                </li>
-                <li className="text-lg">
-                  Despite his massive donations, Gates' wealth continues to grow due to smart investments and the power of compound interest.
-                </li>
-              </ul>
-            </section>
+    <section className="mb-12">
+      <h3 className="text-3xl font-bold mb-4 text-blue-700">
+        Why "Spend Bill Gates' Money" is More Than Just a Game
+      </h3>
+      <p className="text-lg mb-4 leading-relaxed">
+        While the premise might seem playful, "Spend Bill Gates' Money" stands apart from competitors like <span className="font-semibold">neal.fun</span> by offering a unique blend of entertainment and education. As you play, you'll explore:
+      </p>
+      <ul className="list-disc list-inside space-y-2 ml-6">
+        <li className="text-lg">The massive scale of billionaire wealth compared to games like <span className="font-semibold">spend bill gates money unblocked</span></li>
+        <li className="text-lg">Insights into wealth distribution beyond <span className="font-semibold">spend billionaires' money</span> games</li>
+        <li className="text-lg">Strategic approaches to spending responsibly and making an impact</li>
+        <li className="text-lg">How even fortune management games like <span className="font-semibold">neel fun</span> can spark meaningful conversations</li>
+      </ul>
+    </section>
 
-            <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4 text-blue-700">
-                The Impact of Playing "Spend Bill Gates' Money"
-              </h3>
-              <p className="text-lg mb-4 leading-relaxed">
-                By engaging with our "Spend Bill Gates' Money" simulator, you're not just playing a game – you're gaining 
-                valuable insights into the nature of extreme wealth and its potential applications. This experience can:
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-6">
-                <li className="text-lg">Enhance your understanding of large-scale financial decisions</li>
-                <li className="text-lg">Spark discussions about wealth distribution and social responsibility</li>
-                <li className="text-lg">Inspire creative thinking about solving global challenges</li>
-                <li className="text-lg">Provide a fun, interactive way to explore economic concepts</li>
-              </ul>
-            </section>
-
-            <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4 text-blue-700">Ready to Spend Bill Gates' Money?</h3>
-              <p className="text-lg mb-4 leading-relaxed">
-                Now that you understand the ins and outs of our wealth simulator, are you ready to take on the challenge? 
-                Remember, spending billions responsibly is harder than it looks! Will you focus on personal luxuries, 
-                invest in world-changing technologies, or find a balance between the two?
-              </p>
-              <p className="text-lg mb-4 leading-relaxed">
-                Start your journey into the world of billion-dollar decisions. Who knows? You might 
-                just learn something about yourself – and the world – along the way.
-              </p>
-              <div className="text-center">
-                <Button 
-                  onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} 
-                  className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg text-xl hover:bg-blue-700 transition duration-300"
-                >
-                  Start Spending Now!
-                </Button>
-              </div>
-            </section>
-          </div>
+    <section className="mb-12">
+      <h3 className="text-3xl font-bold mb-4 text-blue-700">
+        Features That Make "Spend Bill Gates' Money" Unique
+      </h3>
+      <div className="grid md:grid-cols-2 gap-6">
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h4 className="text-xl font-semibold mb-2 text-blue-600">Diverse Spending Options</h4>
+          <p>Go beyond <span className="font-semibold">neal.fun</span> with an even broader array of spending categories, from pizza slices to humanitarian milestones.</p>
         </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h4 className="text-xl font-semibold mb-2 text-blue-600">Real-time Balance Updates</h4>
+          <p>Unlike games like <span className="font-semibold">neal . fun</span>, our updates provide unmatched precision, ensuring an immersive experience.</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h4 className="text-xl font-semibold mb-2 text-blue-600">Educational Insights</h4>
+          <p>Learn economic lessons that surpass what other games like <span className="font-semibold">spend all of bill gates money</span> teach.</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h4 className="text-xl font-semibold mb-2 text-blue-600">Strategic Challenges</h4>
+          <p>Can you balance fun with philanthropy better than players of <span className="font-semibold">neal.fun spend</span>?</p>
+        </div>
+      </div>
+    </section>
+
+    <section className="mb-12">
+      <h3 className="text-3xl font-bold mb-4 text-blue-700">
+        Ready to Spend Bill Gates' Money?
+      </h3>
+      <p className="text-lg mb-4 leading-relaxed">
+        Are you ready to explore a level of creativity and strategy that games like <span className="font-semibold">neal fun spend bill gates money</span> don't offer? Try "Spend Bill Gates' Money" today, and find out!
+      </p>
+      <div className="text-center">
+        <Button 
+          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} 
+          className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg text-xl hover:bg-blue-700 transition duration-300"
+        >
+          Start Spending Now!
+        </Button>
+      </div>
+    </section>
+  </div>
+</div>
+
 
         {/* Footer */}
         <footer className="bg-gray-800 text-white py-6 mt-12 rounded-lg">
