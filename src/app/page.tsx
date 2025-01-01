@@ -535,8 +535,8 @@ export default function SpendBillGatesMoneyDeluxe() {
 </div>
 
 
-        {/* Footer */}
-        <footer className="bg-gray-800 text-white py-6 mt-12 rounded-lg">
+           {/* Footer */}
+           <footer className="bg-gray-800 text-white py-6 mt-12 rounded-lg">
   <div className="container mx-auto px-4 text-center">
     <p className="mb-2 text-lg">Created with passion by H</p>
     <nav className="flex justify-center items-center gap-4 mb-4">
@@ -554,6 +554,15 @@ export default function SpendBillGatesMoneyDeluxe() {
         rel="noopener noreferrer"
       >
         Spend Elon Musk Money
+      </Link>
+      <span className="text-gray-500">|</span>
+      <Link 
+        href="https://www.houseofcalculators.com/" 
+        className="text-blue-300 hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        House of Calculator
       </Link>
     </nav>
     <p className="mt-4 text-sm">
