@@ -564,6 +564,15 @@ export default function SpendBillGatesMoneyDeluxe() {
       >
         House of Calculator
       </Link>
+      <span className="text-gray-500">|</span>
+      <Link 
+        href="https://perfectcirclegame.com/" 
+        className="text-blue-300 hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Perfect Circle Game
+      </Link>
     </nav>
     <p className="mt-4 text-sm">
       "Spend Bill Gates' Money" is a simulation game for entertainment and educational purposes only. 
